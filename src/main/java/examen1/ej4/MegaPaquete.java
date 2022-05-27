@@ -23,26 +23,26 @@ public class MegaPaquete extends BuilderPaquete{
 
     @Override
     public void buildPipocasGrandes() {
-
+        this.paquete.setPipocasGrandes(0);
     }
 
     @Override
     public void buildVasosDeRefresco() {
-
+        this.paquete.setVasoDeRefresco(0);
     }
 
     @Override
     public void buildChocolate() {
-
+        this.paquete.setChocolate(0);
     }
 
     @Override
     public void buildPipocasNormales() {
-
+        this.paquete.setPipocasNormales(0);
     }
 
     @Override
     public void buildRefresco() {
-
+        this.paquete.setRefresco(0);
     }
 }

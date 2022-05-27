@@ -6,8 +6,8 @@ public abstract class BuilderPaquete {
     public Paquete getProduct() {
         return paquete;
     }
-
-    public void createPaquete() {
+  // te falta insyancias te esta dando null pointer revisa la estrcutura basica y resolvelo son errores de tipo de datos e instanciacion
+   public void createPaquete() {
         this.paquete = paquete;
     }
     public abstract void buildNombre();

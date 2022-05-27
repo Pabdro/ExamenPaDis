@@ -6,6 +6,10 @@ public class Director {
         return builder.getProduct();
     }
 
+    public BuilderPaquete getBuilder() {
+        return builder;
+    }
+
     public void setBuilder(BuilderPaquete builder){
         this.builder=builder;
     }
