@@ -1,0 +1,23 @@
+package examen1.ej4;
+
+public abstract class BuilderPaquete {
+    protected Paquete paquete;
+
+    public Paquete getProduct() {
+        return paquete;
+    }
+
+    public void createPaquete() {
+        this.paquete = paquete;
+    }
+    public abstract void buildNombre();
+    public abstract void buildPipocasExtragrandes();
+    public abstract void buildNombre();
+    public abstract void buildNombre();
+    public abstract void buildNombre();
+    public abstract void buildNombre();
+    public abstract void buildNombre();
+    public abstract void buildNombre();
+    public abstract void buildNombre();
+    public abstract void buildNombre();
+}
