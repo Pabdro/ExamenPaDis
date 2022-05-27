@@ -12,12 +12,11 @@ public abstract class BuilderPaquete {
     }
     public abstract void buildNombre();
     public abstract void buildPipocasExtragrandes();
-    public abstract void buildNombre();
-    public abstract void buildNombre();
-    public abstract void buildNombre();
-    public abstract void buildNombre();
-    public abstract void buildNombre();
-    public abstract void buildNombre();
-    public abstract void buildNombre();
-    public abstract void buildNombre();
+    public abstract void buildGaseosasExtragrandes();
+    public abstract void buildChocolatesGigantes();
+    public abstract void buildPipocasGrandes();
+    public abstract void buildVasosDeRefresco();
+    public abstract void buildChocolate();
+    public abstract void buildPipocasNormales();
+    public abstract void buildRefresco();
 }
